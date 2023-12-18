@@ -6,7 +6,7 @@ import { EmailFilter } from "../cmps/EmailFilter"
 
 
 
-export function MailBox() {
+export function EmailIndex() {
     const [emails, setEmails] = useState(null)
     const [filterBy, setFilterBy] = useState(emailService.getDefaultFilter())
 

@@ -16,7 +16,7 @@ export const utilService = {
 function getloggedinUser() {
 
     const loggedinUser = { email: 'user@appsus.com', fullname: 'Mahatma Appsus' };
-return {loggedinUser};
+return loggedinUser.fullname;
 
 }
 
@@ -39,16 +39,24 @@ function loadFromStorage(key, defaultValue = null) {
 }
 
 
-function getImgUrl(url) {
+/* function getImgUrl(url) {
     return new URL(url, import.meta.url).href
+} */
+
+function getImgUrl(iconName) {
+    const path = `/src/assets/imgs/${iconName}`
+    const modules = import.meta.glob('/src/assets/imgs/*', { eager: true })
+    const mod = modules[path]
+    return mod.default
 }
+
 
 function getIconUrl(iconName, isSelected) {
     if (isSelected) {
-        return utilService.getImgUrl(`../assets/imgs/selected_${iconName}.png`)
+        return utilService.getImgUrl(`${iconName}.png`)
     }
     else {
-        return utilService.getImgUrl(`../assets/imgs/${iconName}.png`)
+        return utilService.getImgUrl(`${iconName}.png`)
     }
 }
 

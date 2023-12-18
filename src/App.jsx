@@ -30,7 +30,7 @@ export function App() {
 
                 <header className="mailBox-buttons-header">
                     <div>
-                    test
+                    
                     </div>
                 </header>
 
@@ -51,21 +51,14 @@ export function App() {
                     <p> Trash</p>
                     <p> Categories</p> */}
 
-<h1>" " " "test </h1>
+<h1> </h1>
    
                 </aside>
 
                 <div className="mailBox-main-list">
-                    <p>main list</p>
+                   {/*  <p>main list</p> */}
+                   
  
-                    <p> Inbox</p>
-                    
-                    <p > Starred </p>
-                    <p> Sent</p>
-                    <p> Draft</p>
-                    <p> Trash</p>
-                    <p> Categories</p>
-
 
                 </div>
 

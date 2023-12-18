@@ -3,7 +3,10 @@ import { utilService } from "../services/util.service"
 
 export function EmailFolderList() {
     
-    
+    function OnStarFilter() {
+
+    }
+
     return (
 
         <section className="email-folder-list">
