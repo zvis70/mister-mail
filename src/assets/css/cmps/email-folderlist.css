@@ -1,0 +1,43 @@
+.email-folder-list {
+   /*  margin:10px;
+    background: #faf8f9;
+    min-width: 100px;
+    align-items: center; */
+}
+
+.image-with-text {
+    display: flex;
+     align-items: center;  /* Align items vertically in the center */
+/*        margin:10px;
+ */  }
+ .image-with-text .inbox{     /*זמני עד שימומש*/
+
+  border-radius: 0 20px 20px 0;
+  border-color: #a51818;
+  border-width: 1px;
+  background-color: #d5d5d5; 
+ }
+
+  .image-with-text:hover {
+
+    background-color: #e2e2e2; 
+    border-radius: 0 20px 20px 0;
+
+  }
+
+    
+
+  /* .compose-button {
+     background-color: rgb(157, 201, 253); 
+    border-radius: 10%;
+    padding:10px;
+    border: 0px ;
+    font-size: 18px;
+    margin:10px
+  } */
+
+  .email-folder-icon{
+      height: 20px;
+      width: 20px;
+      margin: 10px;
+  }
