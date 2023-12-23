@@ -24,8 +24,9 @@
  */
 @import "./cmps/email-folderlist.css"; 
 
+@import "./cmps/welcome-header.css";
+@import "./pages/mailbox-header.css";
 
-@import "./cmps/app-header.css";
 
 /*@import "./cmps/robot-filter.css";
 @import "./cmps/robot-list.css";

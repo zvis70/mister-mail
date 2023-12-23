@@ -1,6 +1,8 @@
 .app-header {
-    /* background: #e91e63; */
-    color: rgb(28, 14, 220);
+    background: #3da9f3;
+    /* color: rgb(28, 14, 220); */
+    color: white;
+
 
 }
 
@@ -49,4 +51,9 @@ input[type="search"] {
 
 input[type="search"]::placeholder {
     color: #bbb;
+}
+
+.loggedinUsertitle{
+margin-left: 205px;
+
 }

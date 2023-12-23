@@ -1,31 +1,33 @@
 import { Link, NavLink } from "react-router-dom";
+
 import imgUrl from '../assets/imgs/GMAIL1.png';
 import { utilService } from "../services/util.service";
 
-
 /* <header className="app-header"> */
+const loggedinUser = { email: 'user@appsus.com', fullname: 'Mahatma Appsus' } 
 
-function getloggedinUser() {
-
-            let loggedinUser = loggedinUser;
-            return {loggedinUser};
-            }
 
 export function AppHeader() {
-    return (
 
-        
+    return (
+      
+
         <section className="mailBox-upper-header-img">
-            {/*                 <h1>Robots</h1>*/}
-            <img src={imgUrl} alt="" />
-            {/*  <h1>{`Hello ${loggedinUser.fullname}`}</h1> 
- */}
-            {/* <nav>
+                     <img src={imgUrl} alt="fgsdfg" /> 
+                     {/* <h1> {`Hello ${loggedinUser.fullname}`}</h1>  */}
+                     
+                     {/* <section className="container"> */}
+                  
+                {/* <nav>
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/about">About</NavLink>
-                    <NavLink to="/robot">Robots</NavLink>
+                     <NavLink to="/about">About</NavLink> 
+                    <NavLink to="/mailbox">MailBox</NavLink>
                 </nav> */}
+            {/* </section> */}
         </section>
+        
 
     )
 }
+
+
