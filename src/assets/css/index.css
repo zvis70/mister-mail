@@ -26,7 +26,7 @@
 
 @import "./cmps/welcome-header.css";
 @import "./pages/mailbox-header.css";
-
+@import "./cmps/email-preview.css";
 
 /*@import "./cmps/robot-filter.css";
 @import "./cmps/robot-list.css";

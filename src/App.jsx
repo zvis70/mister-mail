@@ -4,15 +4,14 @@ import { Home } from './pages/Home'
 import { About } from './pages/About';
 import { AboutTeam } from './cmps/AboutTeam';
 import { AboutVision } from './cmps/AboutVision';
+import { MailBox } from './pages/MailBox';
 
 import { AppFooter } from './cmps/AppFooter'
-import { AppHeader } from './cmps/AppHeader'
-
-import { EmailIndex } from './pages/EmailIndex';
-import { EmailFolderList } from './cmps/EmailFolderList';
-import { WelcomeHeader } from './cmps/WelcomeHeader';
-import { EmailDetails } from './pages/EmailDetails';
-import { MailBox } from './pages/MailBox';
+// import { AppHeader } from './cmps/AppHeader'
+// import { EmailIndex } from './pages/EmailIndex';
+// import { EmailFolderList } from './cmps/EmailFolderList';
+// import { WelcomeHeader } from './cmps/WelcomeHeader';
+// import { EmailDetails } from './pages/EmailDetails';
 // import { EmailList } from './cmps/EmailList';
 
 
@@ -32,10 +31,9 @@ export function App() {
             <Route path="/mailbox" element={<MailBox />} />
             
         </Routes>
-        mmm
     </main>
     <aside className='app-sidebar dark'>
-       <h1>jjjjj</h1> 
+
     </aside>
     <AppFooter />
    

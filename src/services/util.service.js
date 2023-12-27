@@ -15,7 +15,7 @@ export const utilService = {
 
 function getloggedinUser() {
 
-    const loggedinUser = { email: 'user@appsus.com', fullname: 'Mahatma Appsus' };
+    const loggedinUser = { email: 'tzvika.s@gmail.com', fullname: 'Mahatma Gandhi' };
 return loggedinUser.fullname;
 
 }

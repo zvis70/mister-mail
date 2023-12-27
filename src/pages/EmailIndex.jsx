@@ -25,7 +25,6 @@ export function EmailIndex() {
 
     }
 
-
     async function onRemoveEmail(emailId) {
         try {
             await emailService.remove(emailId)
@@ -55,12 +54,9 @@ export function EmailIndex() {
     if (!emails) return <div>Loading...</div>
 
     return (
-        <section className="email-index">ff
-            <div className="side-content">
-                <EmailFolderList />
-            </div>
+        <section className="email-index">
             <div className='main-content'>
-                <EmailFilter filterBy={{ txt, emailStatus, isRead }} onSetFilter={onSetFilter} />
+                {/* <EmailFilter filterBy={{ txt, emailStatus, isRead }} onSetFilter={onSetFilter} /> */}
                 <EmailList emails={emails} onRemoveEmail={onRemoveEmail} onStar={onStar} />
             </div>
         </section>
